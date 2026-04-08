@@ -1,0 +1,21 @@
+@if (inventory) {
+<div class="section inventory-section">
+    <h3>🎒 Artículos</h3>
+
+    @if ((inventory.getItems() | keyvalue).length > 0) {
+    <div class="inventory-grid">
+        @for (item of (inventory.getItems() | keyvalue); track item.key) {
+        <div class="inventory-item" [title]="formatItemName(item.key) + ' x' + item.value">
+            @if (item.key === 'bread_crumb') {
+            <span>Trozo de Pan: </span>
+            <span>{{ inventory.getQuantity('bread_crumb') || 0 }}</span>
+            } @else {
+            <img [src]="getItemIcon(item.key)" class="item-icon" [alt]="formatItemName(item.key)">
+            <span class="item-quantity">{{ item.value }}</span>
+            }
+        </div> }
+    </div> } @else {
+    <p class="empty-inventory-message">El inventario está vacío.</p>
+    }
+
+</div> }

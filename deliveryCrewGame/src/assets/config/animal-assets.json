@@ -1,0 +1,263 @@
+{
+  "dog_white_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.68,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "dog_brown_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.68,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "dog_golden_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.68,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "dog_black_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.68,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "cat_white_walk.png": {
+    "width": 28,
+    "height": 30,
+    "scale": 0.55,
+    "offset": {
+      "x": -2,
+      "y": 33
+    }
+  },
+  "cat_black_walk.png": {
+    "width": 28,
+    "height": 30,
+    "scale": 0.55,
+    "offset": {
+      "x": -2,
+      "y": 33
+    }
+  },
+  "chicken_yellow_walk.png": {
+    "width": 54,
+    "height": 52,
+    "scale": 0.14,
+    "offset": {
+      "x": -1,
+      "y": 11
+    }
+  },
+  "hen_white_walk.png": {
+    "width": 74,
+    "height": 70,
+    "scale": 0.2,
+    "offset": {
+      "x": -1,
+      "y": -7
+    }
+  },
+  "hen_turken_walk.png": {
+    "width": 74,
+    "height": 70,
+    "scale": 0.2,
+    "offset": {
+      "x": -1,
+      "y": -7
+    }
+  },
+  "rooster_white_walk.png": {
+    "width": 74,
+    "height": 70,
+    "scale": 0.2,
+    "offset": {
+      "x": -1,
+      "y": -7
+    }
+  },
+  "mouse_white_walk.png": {
+    "width": 60,
+    "height": 58,
+    "scale": 0.12,
+    "offset": {
+      "x": -2,
+      "y": 4
+    }
+  },
+  "mouse_gray_walk.png": {
+    "width": 60,
+    "height": 58,
+    "scale": 0.12,
+    "offset": {
+      "x": -2,
+      "y": 4
+    }
+  },
+  "earthworm_pink_move.png": {
+    "width": 50,
+    "height": 15,
+    "scale": 0.47,
+    "offset": {
+      "x": -7,
+      "y": 9
+    }
+  },
+  "drake_white_walk.png": {
+    "width": 60,
+    "height": 60,
+    "scale": 0.24,
+    "offset": {
+      "x": -2,
+      "y": 2
+    }
+  },
+  "drake_black_walk.png": {
+    "width": 60,
+    "height": 60,
+    "scale": 0.24,
+    "offset": {
+      "x": -2,
+      "y": 2
+    }
+  },
+  "drake_brown_walk.png": {
+    "width": 60,
+    "height": 60,
+    "scale": 0.24,
+    "offset": {
+      "x": -2,
+      "y": 2
+    }
+  },
+  "drake_mallard_walk.png": {
+    "width": 60,
+    "height": 60,
+    "scale": 0.24,
+    "offset": {
+      "x": -2,
+      "y": 2
+    }
+  },
+  "duck_mallard_walk.png": {
+    "width": 60,
+    "height": 60,
+    "scale": 0.24,
+    "offset": {
+      "x": -2,
+      "y": 2
+    }
+  },
+  "duckling_yellow_walk.png": {
+    "width": 30,
+    "height": 30,
+    "scale": 0.24,
+    "offset": {
+      "x": -1,
+      "y": 33
+    }
+  },
+  "duckling_yellow_swim.png": {
+    "width": 30,
+    "height": 30,
+    "scale": 0.24,
+    "offset": {
+      "x": -1,
+      "y": 33
+    }
+  },
+  "rabbit_white_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.45,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "rabbit_white_jump.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.45,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "rabbit_black_walk.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.45,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "rabbit_black_jump.png": {
+    "width": 30,
+    "height": 31,
+    "scale": 0.45,
+    "offset": {
+      "x": -1,
+      "y": 32
+    }
+  },
+  "frog_green_jump.png": {
+    "width": 30,
+    "height": 30,
+    "scale": 0.24,
+    "offset": {
+      "x": -1,
+      "y": 33
+    }
+  },
+  "pig_pink_walk.png": {
+    "width": 60,
+    "height": 45,
+    "scale": 0.63,
+    "offset": {
+      "x": -2,
+      "y": 4
+    }
+  },
+  "fish_orange_jump.png": {
+    "width": 62,
+    "height": 62,
+    "scale": 0.23,
+    "offset": {
+      "x": -1,
+      "y": 1
+    }
+  },
+  "sheep_white_walk.png": {
+    "width": 58,
+    "height": 50,
+    "scale": 0.56,
+    "offset": {
+      "x": -3,
+      "y": 4
+    }
+  },
+  "parrot_green_walk.png": {
+    "width": 40,
+    "height": 50,
+    "scale": 0.28,
+    "offset": {
+      "x": -12,
+      "y": 7
+    }
+  }
+}

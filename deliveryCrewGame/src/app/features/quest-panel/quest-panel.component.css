@@ -1,0 +1,207 @@
+.quest-panel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.quest-panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fdf6e3;
+    border: 3px solid #584b3a;
+    border-radius: 8px;
+    padding: 0;
+    /* Quitamos padding global para que la cabecera llegue al borde */
+    width: 90%;
+    max-width: 500px;
+    font-family: 'Garamond', serif;
+    color: #333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+    overflow: hidden;
+    /* Para respetar el border-radius */
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- Cabecera del NPC --- */
+.quest-header {
+    background-color: #1a237e;
+    /* Azul oscuro */
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    border-bottom: 3px solid #584b3a;
+}
+
+.npc-avatar-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #FFD700;
+    /* Borde amarillo sólido */
+    /* Amarillo Oro */
+    overflow: hidden;
+    background: #fff;
+    flex-shrink: 0;
+}
+
+.npc-avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.quest-title-header {
+    margin: 0;
+    font-size: 1.4em;
+    color: #FFD700;
+    /* Título en dorado */
+    text-align: left;
+}
+
+.npc-name {
+    font-size: 1em;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #c9302c;
+    color: white;
+    border: 1px solid #ac2925;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.quest-body {
+    padding: 20px;
+}
+
+.quest-description {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.quest-section {
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px dashed #938570;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.quest-section h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #d3c8b4;
+    padding-bottom: 5px;
+    font-size: 1.4em;
+}
+
+.objective-line,
+.reward-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Un poco más de espacio para claridad */
+    font-size: 1.2em;
+}
+
+.item-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.reward-amount {
+    font-size: 2.5rem;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.currency {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.quest-actions {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.quest-actions button {
+    background-color: #f0ad4e;
+    border: 1px solid #eea236;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.quest-actions button:hover {
+    background-color: #ec971f;
+}
+
+.quest-actions button:first-child {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.quest-actions button:first-child:hover {
+    background-color: #449d44;
+}
+
+.quest-actions button:last-child {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+.quest-actions button:last-child:hover {
+    background-color: #c9302c;
+}
+
+.feedback-message {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.feedback-message.success {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.feedback-message.failure {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}

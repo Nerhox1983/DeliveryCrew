@@ -1,0 +1,1673 @@
+[
+  {
+    "fileName": "beach_sandy_left_type01.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_left_type02.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_northleft_corner.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_northright_corner.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_north_type01.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_north_type02.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_right_type01.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_right_type02.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_southleft_corner.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_southright_corner.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_south_type01.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "beach_sandy_south_type02.png",
+    "type": "beach",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "bed.png",
+    "type": "bed",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "border_green_door_brown_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "border_green_door_white_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "border_white_door_brown_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "white"
+  },
+  {
+    "fileName": "border_white_door_brown_type02.png",
+    "type": "door",
+    "walkable": true,
+    "color": "white"
+  },
+  {
+    "fileName": "border_white_door_brown_type03.png",
+    "type": "door",
+    "walkable": true,
+    "color": "white"
+  },
+  {
+    "fileName": "border_white_door_white_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "white"
+  },
+  {
+    "fileName": "cascade_Azure01.png",
+    "type": "cascade",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "cascade_Azure02.png",
+    "type": "cascade",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "cascade_Azure03.png",
+    "type": "cascade",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "cascade_Azure04.png",
+    "type": "cascade",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "cobblestone_gray_left_type02.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_northleft_corner.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_northright_corner.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_north_type02.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_right_type02.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_southleft_corner.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_southright_corner.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_south_type02.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "cobblestone_gray_type01.png",
+    "type": "cobblestone",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "crackedFacade_blue_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "crackedFacade_blue_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "crackedFacade_gray_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "gray"
+  },
+  {
+    "fileName": "crackedFacade_green_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "crackedFacade_green_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "crackedFacade_orange_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "crackedFacade_orange_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "crackedFacade_red_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "crackedFacade_red_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "crackedFacade_violet_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "crackedFacade_violet_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "crackedFacade_yellow_type01.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "crackedFacade_yellow_type02.png",
+    "type": "crackedfacade",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "DebrisBlock_gray_type01.png",
+    "type": "debrisblock",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "debrisBlock_green_type01.png",
+    "type": "debrisblock",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "debrisBlock_orange_type01.png",
+    "type": "debrisblock",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "debrisBlock_red_type01.png",
+    "type": "debrisblock",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "debrisBlock_yellow_type01.png",
+    "type": "debrisblock",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "dirtpath_brown_left_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_left_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_neste_type00.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_northleft_corner_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_northleft_corner_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_northleft_corner_type03.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_northright_corner_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_northright_corner_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_north_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_north_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_right_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_right_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_southleft_corner_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_southleft_corner_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_southright_corner_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_southright_corner_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_south_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_south_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_type03.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_brown_type04.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "dirtpath_green_nest_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "dirtpath_green_nest_type02.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "dirtpath_green_nest_type03.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "dirtpath_sand_northleft_corner_type01.png",
+    "type": "dirtpath",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "fire_hidrant_red_sidewalk_gray__type01.png",
+    "type": "fire",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "floor_type01.png",
+    "type": "floor",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "floor_type02.png",
+    "type": "floor",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "grass_green_crop_type01.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_crop_type02.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_crop_type03.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_crop_type04.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_crop_type05.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_nest_type00.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_nest_type01.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_nest_type02.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_nest_type03.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_type01.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "grass_green_type02.png",
+    "type": "grass",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "plank_brown_horizontal.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "plank_brown_left_type01.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "plank_brown_north_type01.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "plank_brown_right_type01.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "plank_brown_south_type01.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "plank_brown_vertical.png",
+    "type": "plank",
+    "walkable": true,
+    "color": "brown"
+  },
+  {
+    "fileName": "pot_grass_green_type01.png",
+    "type": "pot",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "pot_grass_green_type02.png",
+    "type": "pot",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "puddle_type01.png",
+    "type": "puddle",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "puddle_type02.png",
+    "type": "puddle",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "puddle_type03.png",
+    "type": "puddle",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "puddle_type04.png",
+    "type": "puddle",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "puddle_type05.png",
+    "type": "puddle",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "rock_gray_left_type01.png",
+    "type": "rock",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "rock_gray_right_type01.png",
+    "type": "rock",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "shatteredFacade_blue_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "shatteredFacade_blue_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "shatteredFacade_green_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "shatteredFacade_green_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "shatteredFacade_orange_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "shatteredFacade_orange_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "shatteredFacade_purple_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "shatteredFacade_red_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "shatteredFacade_red_type02.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "shatteredFacade_red_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "shatteredFacade_violet_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "shatteredFacade_yellow_type01.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "shatteredFacade_yellow_type03.png",
+    "type": "shatteredfacade",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "sidewalk_gray_bench_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_left_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_left_type02.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_left_type03.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_northleft_corner.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_northright_corner.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_north_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_north_type02.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_north_type03.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_right_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_right_type02.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_right_type03.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_southleft_corner.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_southright_corner.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_south_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_south_type02.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_type01.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "sidewalk_gray_type02.png",
+    "type": "sidewalk",
+    "walkable": true,
+    "color": "gray"
+  },
+  {
+    "fileName": "stove.png",
+    "type": "stove",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "timber_amber_toparch_white_top.png",
+    "type": "timber",
+    "walkable": true,
+    "color": "white"
+  },
+  {
+    "fileName": "timber_amber_type_01.png",
+    "type": "timber",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "timber_amber_type_02.png",
+    "type": "timber",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "timber_amber_window_center_type_04.png",
+    "type": "window",
+    "walkable": true,
+    "color": null
+  },
+  {
+    "fileName": "tree_grass_green_type01.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_grass_green_type02.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_grass_green_type03.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_grass_green_type04.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_grass_green_type05.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_green_fruit_green_type01.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_green_fruit_green_type02.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_green_fruit_yellow_type01.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "tree_green_fruit_yellow_type02.png",
+    "type": "tree",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_blue.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_top_window_center_type10.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_center_type04.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_left_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_blue_window_right_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "blue"
+  },
+  {
+    "fileName": "wall_darkGray.png",
+    "type": "wall",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "wall_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_door_brown_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_green_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "wall_lightGray.png",
+    "type": "wall",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "wall_orange.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_door_brown.png",
+    "type": "door",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_left_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_orange_window_right_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "orange"
+  },
+  {
+    "fileName": "wall_red.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_door_brown_type01.png",
+    "type": "door",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_door_brown_type02.png",
+    "type": "door",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_left_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_red_window_right_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "red"
+  },
+  {
+    "fileName": "wall_violet.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_top_window_center_type04.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_center_type04.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_left_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_violet_window_right_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "violet"
+  },
+  {
+    "fileName": "wall_yellow.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_door_brown.png",
+    "type": "door",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_toparch_green.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_toparch_green_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_toparch_white.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_toparch_white_top.png",
+    "type": "wall",
+    "walkable": false,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_top_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_top_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_top_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_center_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_center_type03.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_center_type04.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_center_type05.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_left_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_left_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_right_type01.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "wall_yellow_window_right_type02.png",
+    "type": "window",
+    "walkable": true,
+    "color": "yellow"
+  },
+  {
+    "fileName": "water_blue_type01.png",
+    "type": "water",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "water_blue_type02.png",
+    "type": "water",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "water_blue_type03.png",
+    "type": "water",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "water_blue_type04 .png",
+    "type": "water",
+    "walkable": false,
+    "color": "blue"
+  },
+  {
+    "fileName": "water_darkcyan.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_bottomleft.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_bottomright.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_middleleft.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_middleraight.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_topleft.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "water_fountain_topright.png",
+    "type": "water",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_brown_north.png",
+    "type": "counter_n",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_brown_northleft_corner_type01.png",
+    "type": "counter_nl_corner",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_brown_northright_corner_type01.png",
+    "type": "counter_nr_corner",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_brown_left_type01.png",
+    "type": "counter_l",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_brown_right_type01.png",
+    "type": "counter_r",
+    "walkable": true,
+    "color": null,
+    "hitbox": {
+      "x": 20,
+      "y": 10,
+      "width": 24,
+      "height": 44
+    }
+  },
+  {
+    "fileName": "../architecture/countertop_southleft_type01.png",
+    "type": "counter_sl",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../architecture/countertop_southright_type01.png",
+    "type": "counter_sr",
+    "walkable": false,
+    "color": null
+  },
+  {
+    "fileName": "../furniture/couch_green_front_type01.png",
+    "type": "couch",
+    "facing": "south",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "../furniture/couch_green_profile_type01.png",
+    "type": "couch",
+    "facing": "east",
+    "walkable": true,
+    "color": "green"
+  },
+  {
+    "fileName": "../furniture/couch_green_back_type01.png",
+    "type": "couch",
+    "facing": "north",
+    "walkable": true,
+    "color": "green"
+  }
+]

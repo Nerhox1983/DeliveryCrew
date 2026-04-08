@@ -1,0 +1,91 @@
+<!-- CORRECCIÓN: Estilos inline para garantizar visibilidad sobre el canvas (Z-Index alto y Position Fixed) -->
+<div class="quest-panel-overlay" *ngIf="visible" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.7); z-index: 99999; display: flex; justify-content: center; align-items: center;">
+    <div class="quest-panel">
+        <!-- Cabecera del NPC -->
+        <div class="quest-header" *ngIf="quest">
+            <div class="npc-avatar-container">
+                <img [src]="getNpcAvatar(quest.giverId)" class="npc-avatar" alt="Avatar NPC">
+            </div>
+            <div class="header-text">
+                <h2 class="quest-title-header">{{ quest.title }}</h2>
+                <span class="npc-name">{{ getNpcName(quest.giverId) }}</span>
+            </div>
+            <button class="close-btn" (click)="close()">X</button>
+        </div>
+
+        <ng-container *ngIf="quest">
+            <div class="quest-body">
+                <p class="quest-description">{{ quest.description }}</p>
+
+                <!-- Objetivo de la Misión -->
+                <div class="quest-section quest-objective">
+                    <h3>Objetivo</h3>
+                    <div class="objective-line">
+                        <span>Conseguir {{ quest.objective.required }}</span>
+                        <img [src]="getObjectiveIcon(quest.objective.target)" class="item-icon"
+                            [alt]="formatTarget(quest.objective.target)">
+                        <span>{{ formatTarget(quest.objective.target) }}</span>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar"
+                            [style.width.%]="(quest.objective.current / quest.objective.required) * 100"></div>
+                    </div>
+                    <span class="progress-text">{{ quest.objective.current }} / {{ quest.objective.required }}</span>
+                </div>
+
+                <!-- Recompensa -->
+                <div class="quest-section quest-reward">
+                    <h3>Recompensa</h3>
+                    <div *ngIf="quest.reward" class="reward-line">
+                        <!-- Si la recompensa es dinero -->
+                        <ng-container *ngIf="!rewardIsItem">
+                            <span class="currency">$</span>
+                            <span class="reward-amount">{{ rewardValue | number:'1.0-0' }}</span>
+                        </ng-container>
+                        <!-- Si la recompensa es un item -->
+                        <ng-container *ngIf="rewardIsItem">
+                            <span>{{ rewardValue }}x</span>
+                            <img [src]="getRewardIcon(quest.reward.itemType)" class="item-icon"
+                                [alt]="formatTarget(quest.reward.itemType)">
+                            <span>{{ formatTarget(quest.reward.itemType) }}</span>
+                        </ng-container>
+                    </div>
+                </div>
+
+                <!-- Feedback del Regateo -->
+                <div class="feedback-message" *ngIf="feedbackMessage"
+                    [ngClass]="{'success': lastResult === true, 'failure': lastResult === false}">
+                    {{ feedbackMessage }}
+                </div>
+
+                <!-- Botones de Acción -->
+                <div class="quest-actions">
+                    <ng-container *ngIf="quest.status === 'inactive'">
+                        <img src="/assets/buttons/acceptQuest.png" (click)="acceptQuest()" alt="Aceptar" class="quest-btn"
+                            style="width: 64px; height: 64px; cursor: pointer; object-fit: contain;">
+                        <img src="/assets/buttons/hagel.png" (click)="startHaggling()" alt="Regatear" class="quest-btn"
+                            style="width: 64px; height: 64px; cursor: pointer; object-fit: contain;">
+                        <img src="/assets/buttons/rejectQuest.png" (click)="rejectOffer()" alt="Rechazar" class="quest-btn"
+                            style="width: 64px; height: 64px; cursor: pointer; object-fit: contain;">
+                    </ng-container>
+
+                    <ng-container *ngIf="quest.status === 'haggling'">
+                        <p>Intentos restantes: {{ attemptsLeft }}</p>
+                        <input #offerInput type="number" [value]="quest.currentOffer" step="50" min="50"
+                            [placeholder]="quest.currentOffer">
+                        <button (click)="makeCounterOffer(offerInput.value)">Contraoferta</button>
+                        <button (click)="acceptQuest()">Aceptar oferta actual</button>
+                    </ng-container>
+
+                    <ng-container *ngIf="quest.status === 'ready'">
+                        <button (click)="completeQuest()">Completar Misión</button>
+                    </ng-container>
+
+                    <ng-container *ngIf="quest.status === 'active'">
+                        <p>Misión en progreso...</p>
+                    </ng-container>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

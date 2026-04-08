@@ -1,0 +1,50 @@
+.inventory-section {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.inventory-item {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: help;
+}
+
+.inventory-item .item-icon {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.inventory-item .item-quantity {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font-size: 10px;
+    padding: 1px 3px;
+    border-top-left-radius: 3px;
+}
+
+.empty-inventory-message {
+    color: #aaa;
+    font-style: italic;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 5px;
+}

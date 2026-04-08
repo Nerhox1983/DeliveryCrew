@@ -1,0 +1,55 @@
+[
+    {
+        "id": "pest_control_1",
+        "title": "¡Control de Plagas!",
+        "description": "Un ciudadano preocupado me ha pedido que elimine {required} lombrices. ¡Te pagaré bien!",
+        "objective": {
+            "type": "kill",
+            "target": "worm",
+            "required": 3
+        },
+        "reward": {
+            "itemType": "coin_500",
+            "amount": 5
+        }
+    },
+    {
+        "id": "cardboard_collection_1",
+        "title": "¡Reciclaje de Cartón!",
+        "description": "Necesito {required} cajas de cartón para una mudanza. Te daré unos billetes por el favor.",
+        "objective": {
+            "type": "collect",
+            "target": "cardboardbox",
+            "required": 3
+        },
+        "reward": {
+            "itemType": "coin_1000",
+            "amount": 3
+        }
+    },
+    {
+        "id": "water_delivery_1",
+        "title": "¡Sed en la Obra!",
+        "description": "Mis compañeros tienen sed. Trae {required} olleta con agua. A cambio te doy {reward_amount} de {reward_item}.",
+        "objective": {
+            "type": "collect",
+            "target": "pitcher_full",
+            "required": 1
+        },
+        "reward": "random"
+    },
+    {
+        "id": "lemon_errand_1",
+        "title": "¡Antojo de Limonada!",
+        "description": "¡Vecino! Mi abuela quiere limonada. ¿Me consigues {required} limones? Te daré una buena plata por el favor.",
+        "objective": {
+            "type": "collect",
+            "target": "lemon",
+            "required": 4
+        },
+        "reward": {
+            "itemType": "coin_500",
+            "amount": 5
+        }
+    }
+]

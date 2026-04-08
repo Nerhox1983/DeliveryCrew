@@ -1,0 +1,22 @@
+<div class="section" *ngIf="activeQuests && activeQuests.length > 0">
+  <h3>🎯 Misiones Activas</h3>
+  <div *ngFor="let quest of activeQuests" class="quest-item">
+    <div class="quest-giver">
+      <img *ngIf="quest.giverFaceSrc" [src]="quest.giverFaceSrc" class="giver-face">
+      <span class="giver-name">{{ quest.giverName || '???' }}</span>
+    </div>
+    <h4 class="quest-title">{{ quest.title }}</h4>
+    <p class="quest-description">{{ quest.description }}</p>
+    <div class="need-label">
+        Progreso: ({{ quest.objective.current }} / {{ quest.objective.required }})
+    </div>
+    <div class="progress-bar-bg">
+        <div class="progress-bar-fill excelente" 
+             [style.width.%]="getProgress(quest)">
+        </div>
+    </div>
+    <div *ngIf="quest.reward" class="quest-reward">
+      🎁 Recompensa: {{ quest.reward.amount }}x {{ quest.reward.itemType }}
+    </div>
+  </div>
+</div>

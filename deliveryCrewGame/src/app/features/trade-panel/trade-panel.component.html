@@ -1,0 +1,36 @@
+<!-- Overlay del Panel de Comercio -->
+<div class="trade-overlay" *ngIf="isVisible">
+  <div class="pixel-panel">
+    <div class="panel-header">
+      <h2>MERCADO DEL PUEBLO</h2>
+      <button class="close-btn" (click)="close()">X</button>
+    </div>
+
+    <div class="inventory-list">
+      <div class="inventory-header">
+        <span>Ítem</span>
+        <span>Nombre</span>
+        <span>Precio</span>
+      </div>
+
+      <div class="inventory-row" *ngFor="let item of tradeItems" (click)="buyItem(item)" style="cursor: pointer;">
+        <div class="cell-icon">
+          <img [src]="item.iconSrc" [alt]="item.name" class="pixel-icon">
+        </div>
+        <div class="cell-name">{{ item.name }}</div>
+        <div class="cell-price">
+          <span class="coin-icon">💰</span> {{ item.currentPrice }}
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-footer">
+      <small>Presiona ESC para cerrar</small>
+    </div>
+  </div>
+</div>
+
+<!-- Mensaje Flotante (Feedback) -->
+<div class="toast-message" *ngIf="message">
+  {{ message }}
+</div>

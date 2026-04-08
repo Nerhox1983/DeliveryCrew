@@ -1,0 +1,109 @@
+<div class="game-layout">
+  <!-- Contenedor del Canvas (Izquierda) -->
+  <div class="canvas-container">
+    <canvas #gameCanvas></canvas>
+
+    <!-- Panel de Comercio (Overlay) -->
+    <app-trade-panel #tradePanel></app-trade-panel>
+
+    <!-- Panel de Misiones (Overlay) -->
+    <app-quest-panel #questPanel></app-quest-panel>
+  </div>
+
+  <!-- Panel Lateral de UI (Derecha) -->
+  <div id="stats-panel" class="ui-panel">
+    <div class="panel-header">
+      <h2>Estado de la Aldea</h2>
+    </div>
+
+    <!-- Sección de Censo -->
+    <div class="section census-section">
+      <h3>📊 Censo Poblacional</h3>
+      <div class="census-grid">
+        <div class="census-item" title="Perros Machos">🐶 ♂️ {{censusReport.dogs.male}}</div>
+        <div class="census-item" title="Perros Hembras">🐶 ♀️ {{censusReport.dogs.female}}</div>
+        <div class="census-item" title="Gatos Machos">😺 ♂️ {{censusReport.cats.male}}</div>
+        <div class="census-item" title="Gatos Hembras">😺 ♀️ {{censusReport.cats.female}}</div>
+        <div class="census-item" title="Pollitos">🐥 {{censusReport.birds.chicks}}</div>
+        <div class="census-item" title="Gallinas">🐔♀️ {{censusReport.birds.hens}}</div>
+        <div class="census-item" title="Gallos">🐔♂️ {{censusReport.birds.roosters}}</div>
+        <div class="census-item" title="Ratones">🐭 {{censusReport.pests.mice}}</div>
+        <div class="census-item" title="Lombrices">🪱 {{censusReport.worms.total}}</div>
+        <div class="census-item" title="Patos Machos">🦆 ♂️ {{censusReport.ducks.male}}</div>
+        <div class="census-item" title="Patos Hembras">🦆 ♀️ {{censusReport.ducks.female}}</div>
+        <div class="census-item" title="Conejos Machos">🐰 ♂️ {{censusReport.rabbits.male}}</div>
+        <div class="census-item" title="Conejos Hembras">🐰 ♀️ {{censusReport.rabbits.female}}</div>
+      </div>
+    </div>
+
+    <!-- Sección de Necesidades -->
+    <div class="section needs-section">
+      <h3>❤️ Necesidades</h3>
+
+      <div class="need-row">
+        <span class="need-label">Salud</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.salud"
+            [ngClass]="getNeedClass(necesidades.salud)">
+          </div>
+        </div>
+      </div>
+
+      <div class="need-row">
+        <span class="need-label">Energía</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.energia"
+            [ngClass]="getNeedClass(necesidades.energia)">
+          </div>
+        </div>
+      </div>
+
+      <div class="need-row">
+        <span class="need-label">Hidratación</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.hidratacion"
+            [ngClass]="getNeedClass(necesidades.hidratacion)">
+          </div>
+        </div>
+      </div>
+
+      <div class="need-row">
+        <span class="need-label">Nutrición</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.nutricion"
+            [ngClass]="getNeedClass(necesidades.nutricion)">
+          </div>
+        </div>
+      </div>
+
+      <div class="need-row">
+        <span class="need-label">Higiene</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.higiene"
+            [ngClass]="getNeedClass(necesidades.higiene)">
+          </div>
+        </div>
+      </div>
+
+      <div class="need-row">
+        <span class="need-label">Confort</span>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" [style.width.%]="necesidades.confort"
+            [ngClass]="getNeedClass(necesidades.confort)">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Sección de Dinero (Nuevo Componente) -->
+    <app-money-counter [wallet]="player ? player.wallet.getDenominations() : {}"></app-money-counter>
+
+    <!-- Sección de Artículos (Inventario) -->
+    <app-inventory [inventory]="player?.inventory"></app-inventory>
+
+    <!-- Sección de Misiones Activas (Nuevo Componente) -->
+    <app-active-quests></app-active-quests>
+
+  </div>
+</div>

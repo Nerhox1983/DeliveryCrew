@@ -1,0 +1,35 @@
+<div class="money-dashboard">
+  <div class="money-header">
+    <h3>💰 Billetera</h3>
+  </div>
+
+  <div class="money-list">
+    <div *ngFor="let item of items" 
+         class="money-item" 
+         [class.pulse]="item.changed">
+      
+      <div class="item-icon-wrapper">
+        <img [src]="item.img" [alt]="item.key" class="item-icon">
+      </div>
+      
+      <div class="item-details">
+        <span class="item-value">${{ item.value | number }}</span>
+        <span class="item-count">x{{ item.count }}</span>
+      </div>
+      
+      <div class="item-subtotal">
+        ${{ (item.value * item.count) | number }}
+      </div>
+    </div>
+    
+    <div *ngIf="items.length === 0" class="empty-wallet">
+      Sin efectivo
+    </div>
+  </div>
+
+  <div class="money-footer">
+    <span class="total-label">TOTAL</span>
+    <span class="total-amount">${{ displayTotal | number }}</span>
+  </div>
+</div>
+
